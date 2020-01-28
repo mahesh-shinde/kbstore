@@ -1,0 +1,4 @@
+{"UserContext": [
+    {"UserId": "123", "Password": "user123", "Role":"User"},
+    {"UserId": "123", "Password": "admin123", "Role":"Admin"}
+  ]}

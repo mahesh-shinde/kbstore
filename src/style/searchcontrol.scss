@@ -1,0 +1,28 @@
+.searchControlsContainer {
+    max-width: 60%;
+    padding: 15px 35px 35px 0px;
+    margin-left: 20%;
+    background-color: #fff;
+}
+
+.horizantal-seperator {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    padding: 15px 10px 15px 15px;
+}
+
+.searchFieldSection {
+    width:50%;
+}
+
+.searchFieldSection > label {
+    display: inline-block;
+    width: 25%;
+}
+
+.searchFieldSection > input {
+    width: 65%;
+}

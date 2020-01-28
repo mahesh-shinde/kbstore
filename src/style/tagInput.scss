@@ -1,0 +1,42 @@
+@import "variable";
+
+#tags {
+  border: 1px solid #ccc;
+  font-family: Arial;
+  display: $display-inline-block;
+  min-width: 19.5%;
+  position: absolute;
+}
+
+#tags span.tag {
+  cursor: pointer;
+  display: $display-block;
+  float: left;
+  color: #555;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 2px 2px 2px 2px;
+  padding-right: 15px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+#tags span.tag::after {
+  position: absolute;
+  content: "×";
+  padding: 0 3px;
+  margin: 1px 0 10px 2px;
+  font-size: 14px;
+}
+
+#tags input {
+  width: 30%;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#tags input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<toolbar /> it matches the snapshot 1`] = `
+<div
+  aria-label="toolbar container"
+  className="toolbarContainer"
+>
+  <div
+    aria-label="toolbar"
+    className="search-button"
+  >
+    <button
+      onClick={[Function]}
+    >
+      <i
+        className="button-icon"
+      >
+         
+      </i>
+      Search
+    </button>
+  </div>
+</div>
+`;

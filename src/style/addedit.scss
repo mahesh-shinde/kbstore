@@ -1,0 +1,64 @@
+@import "variable";
+
+.add-edit-grid-section {
+  overflow: hidden;
+}
+
+.addedit-button {
+    margin-left: 20%;
+    padding: 15px 0px 15px 0px;
+}
+
+.empty-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inline-span {
+    display: $display-inline-block;
+}
+
+.cursor-pointer {
+    cursor: $cursor-pointer;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    border: 1px solid $border-color;
+    width: auto;
+    height: auto;
+    display: flex;
+    background-color:$background-color;
+    color: black;
+    border-radius: 6px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltipDescription {
+    word-wrap: break-word;
+    min-width: 100px;
+    max-width: 400px;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .ellipsis {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+
+  .hyperlink-text{
+    word-break: break-all;
+  }

@@ -1,0 +1,69 @@
+@import "variable";
+@import "header";
+@import "login";
+@import "toolbar";
+@import "grid";
+@import "addedit";
+@import "tagInput";
+@import "searchcontrol";
+
+.textbox {
+    padding: 5px;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: $textbox-border-color;
+    background-color: $textbox-background-color;
+    color: $textbox-text-color;
+    border-style: solid;
+}
+
+.button {
+    width: 10%;
+    background-color: $button-background-color;
+    color: $enable-button-text-color;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: $cursor-pointer;
+}
+
+.button:disabled {
+    color:  #a2a2a2;
+}
+
+.userSection, .adminSection {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    #tags {
+        display: $display-block;
+        width: 75%;
+        position: relative;
+    }
+
+    .button {
+        width: 25%;
+    }
+    .form-signin {
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+    #tags {
+        display: $display-block;
+        width: 10%;
+    }
+
+    .searchFieldSection > label {
+        display: $display-inline-block;
+        width: 30%;
+    }
+
+    .button {
+        width: 32%;
+    }
+}

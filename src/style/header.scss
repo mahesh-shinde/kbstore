@@ -1,0 +1,9 @@
+@import "variable";
+
+$headerbackground: #505050;
+
+.kbheaderContainer {
+    background-color: $headerbackground;
+    color: $background-color;
+    text-align: center;
+}
